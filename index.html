@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos para definir el tamaño del mapa -->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mapa</title>
+</head>
+
+<body>
+    <!-- The form -->
+    <form class="example" id="myForm">
+        <input type="text" placeholder="Buscar un lugar..." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    <div id="div_select">
+    </div>
+    <!-- Este es el mapa -->
+    <div id="map"> </div>
+    <!-- Aqui terminal el mapa -->
+</body>
+<!-- Importacion de libreria de google maps -->
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?libraries=places&key=API_KEY&callback=initMap"
+    type="text/javascript"></script>
+<!-- Logica para inicial y manejar el mapa -->
+<script src="./app.js"></script>
+
+</html>
