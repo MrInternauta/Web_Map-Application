@@ -23,12 +23,11 @@ Generate a new Google Maps API KEY Using:
 
 ### Instalation
 In index.html change the word "API_KEY" by your API KEY.
-When
+
+### Direction Object
 * descripcion: is the description of the direction
 * lat: is the latitude
 * lng: is the longitude
-
-### Direction Object
 ```sh
     direccion: {
         descripcion: '',
